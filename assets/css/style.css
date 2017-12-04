@@ -1,14 +1,13 @@
-
 /* Header Styling */
 
 header {
   position: relative;
   margin-bottom: 40px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   width: 100%;
   float: left;
   border: 0 0 2 0;
-  border-bottom: 2px solid #598B2C;
+  border-bottom: 2px solid #598b2c;
 }
 
 .head_area {
@@ -25,7 +24,7 @@ header {
 }
 
 .nav:hover {
-  color: #598B2C;
+  color: #598b2c;
 }
 
 /* Content Area and Body */
@@ -74,7 +73,7 @@ body {
   display: block;
   float: left;
   border: 1px solid #eee;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   margin-bottom: 40px;
   width: 608px;
   padding: 20px;
@@ -126,7 +125,7 @@ body {
 }
 
 .port_label {
-  background-color: #598B2C;
+  background-color: #598b2c;
   float: left;
   width: 275px;
   height: 70px;
@@ -134,20 +133,19 @@ body {
   bottom: 0px;
   margin: 0 10px 0 10px;
   opacity: 1;
-
 }
 
 .port_label:hover {
-  opacity: .6;
-  transition: opacity .5s ease-out;
-  -moz-transition: opacity .5s ease-out;
-  -webkit-transition: opacity .5s ease-out;
-  -o-transition: opacity .5s ease-out;
+  opacity: 0.6;
+  transition: opacity 0.5s ease-out;
+  -moz-transition: opacity 0.5s ease-out;
+  -webkit-transition: opacity 0.5s ease-out;
+  -o-transition: opacity 0.5s ease-out;
 }
 
 .port_label h3 {
   margin-top: 22px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 /* Connect With Me Styling */
@@ -162,7 +160,7 @@ aside {
 #connect {
   display: block;
   float: right;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   width: 228px;
   border: 1px solid #eee;
   text-align: center;
@@ -172,7 +170,6 @@ aside {
   height: 50px;
   width: 50px;
   margin-top: 10px;
-
 }
 
 aside #contact_line {
@@ -182,38 +179,38 @@ aside #contact_line {
 /* Footer Styling */
 
 footer {
-  position: fixed;
-  Width: 100%;
+  position: relative;
+  width: 100%;
   bottom: 0;
   background-color: rgb(0, 0, 0);
-  color: #FFFFFF;
+  color: #ffffff;
   padding: 20px;
   text-align: center;
   border: 8 0 0 0;
-  border-top: 8px solid #598B2C;
+  border-top: 8px solid #598b2c;
 }
 
 /* Element Styling */
 
 h1 {
-  font-family: 'Georgia', Times, Times New Roman, serif;
-  background-color: #598B2C;
+  font-family: "Georgia", Times, Times New Roman, serif;
+  background-color: #598b2c;
   font-size: 30px;
-  color: #FFFFFF;
+  color: #ffffff;
   padding: 20px;
   float: left;
 }
 
 h2 {
-  font-family: 'Georgia', Times, Times New Roman, serif;
-  color: #598B2C;
+  font-family: "Georgia", Times, Times New Roman, serif;
+  color: #598b2c;
   font-size: 28px;
   margin-bottom: 20px;
 }
 
 h3 {
-  font-family: 'Georgia', Times, Times New Roman, serif;
-  color: #598B2c;
+  font-family: "Georgia", Times, Times New Roman, serif;
+  color: #598b2c;
   text-align: center;
   font-size: 22px;
 }
@@ -223,14 +220,14 @@ h4 {
   color: #333333;
 }
 
-hr { 
-  background-color: #D6D6B1;
+hr {
+  background-color: #d6d6b1;
   height: 3px;
   border: 0;
 }
 
 p {
-  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
   color: #888;
   line-height: 150%;
   margin: 10px;
@@ -240,34 +237,113 @@ input {
   margin: 10px 0;
   border: 1px solid #878472;
   -webkit-transition: background 2s; /* For Safari 3.1 to 6.0 */
-  transition: background .5s;
+  transition: background 0.5s;
   font-family: arial;
 }
 
 textarea:hover,
 input:hover {
   -webkit-transition: background 2s; /* For Safari 3.1 to 6.0 */
-  transition: background .5s;
-  background-color: #D6D6B1;
+  transition: background 0.5s;
+  background-color: #d6d6b1;
 }
 
 textarea:focus,
 input:focus {
-  background-color: #D6D6B1;
+  background-color: #d6d6b1;
 }
 
 button {
   color: #ffffff;
-  border: none;  
-  background-color: #669D31;
+  border: none;
+  background-color: #669d31;
   padding: 10px 30px;
   font-size: 16px;
   -webkit-transition: background 2s; /* For Safari 3.1 to 6.0 */
-  transition: background .5s;
+  transition: background 0.5s;
 }
 
 button:hover {
   -webkit-transition: background 2s; /* For Safari 3.1 to 6.0 */
-  transition: background .5s;
-  background-color: #71B340;
+  transition: background 0.5s;
+  background-color: #71b340;
+}
+
+/* Media Queries */
+
+/* @media screen and (max-width: 1080px) and (min-width: 980px) {
+  
+  }
+} */
+
+@media screen and (max-width: 980px) {
+  .head_area {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .head_area {
+    width: 100%;
+  }
+
+  .content_area {
+    width: 80%;
+  }
+
+  #aboutMe {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    padding-right: 2px;
+  }
+
+  #connect {
+    float: left;
+    width: 100%;
+  }
+
+  #contact {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  header {
+    position: static;
+  }
+
+  #profile_picture {
+    width: 100%;
+  }
+
+  .head_area h1 {
+    width: 100%;
+  }
+
+  a.nav {
+    float: none;
+    position: relative;
+    left: 35%;
+  }
+
+  .inputbox{
+    width: 100%;
+  }
+
+  #messagebox {
+    width: 100%;
+  }
+
+  .port_label,
+  .port_overlay,
+  .port_images {
+    float: none;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  #portfolio {
+    width: 100%;
+  }
 }
